@@ -17,7 +17,7 @@ export default function SearchBar(props) {
       <div>
          <input onChange={handleChange} type='search' value={id}/>
       <Link to="/home">
-      <button onClick={()=>(props.onSearch(id))}>Agregar</button>
+      <button onClick={()=>(props.onSearch(id))}>poné numeritos</button>
       </Link>
       </div>
    );
